@@ -14,9 +14,9 @@ As a risk management professional with 10+ years in fintech lending, I've seen h
 **Goal:** Build interpretable ML models that reduce false decline rates by 15% while maintaining portfolio risk within acceptable thresholds, enabling $2-3M in additional revenue from approved creditworthy applicants.
 
 ## Project Goals
-**Technical:** Build interpretable ML models achieving >0.85 AUS-ROC credit default prediction
+**Technical:** Build interpretable ML models achieving >0.85 AUC-ROC for credit default prediction
 
-**Business:** Reduce falce decline rate by 15% while maintaining risk appetite, enabling an estimated $2-3M in additional revenue from approved creditworthy applicants
+**Business:** Reduce false decline rate by 15% while maintaining risk appetite, enabling an estimated $2-3M in additional revenue from approved creditworthy applicants
 
 **Learning:** Master end-to-end ML workflow from EDA to production deployment in fintech context
 
@@ -123,14 +123,31 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-## Key Findings (To be updated with results)
-Week 1 (Feb 15, 2026):
-✅ Project initialized, dataset downloaded from Kaggle
-✅ Dataset: 2.9M+ Lending Club loans (2007-2018) with 150+ features
-✅ Initial review: Loan amounts $500-$40K, terms 36/60 months, grades A-G
-🔄 Next: Exploratory analysis - default rates, FICO distributions, missing values
+## 📈 Key Findings (Updated Weekly)
 
-[Will update weekly discoveries]
+### Week 1 (Feb 15, 2026)
+
+✅ **Project Setup:**
+- Initialized GitHub repository with professional documentation
+- Dataset downloaded from Kaggle: 2.9M+ Lending Club loans (2007-2018)
+- Verified 150+ features including FICO scores, DTI ratios, payment history
+
+✅ **Dataset Overview:**
+- Loan amounts: $500-$40,000
+- Loan terms: 36 or 60 months
+- Credit grades: A (best) through G (subprime)
+- Time period: 2007-2018 (includes financial crisis impact)
+
+🔄 **Upcoming Analysis (Sunday Feb 15):**
+- Calculate default rates overall and by loan grade
+- Analyze FICO score distributions and correlation with defaults
+- Examine DTI ratios and their impact on credit risk
+- Identify missing values and data quality issues
+- Create 6-8 professional visualizations
+
+**Next Week:** Feature engineering and baseline model development
+
+[Detailed findings will be added after completing exploratory analysis]
 
 ## Learning Outcomes
 - Master machine learning workflow from data to deployment
