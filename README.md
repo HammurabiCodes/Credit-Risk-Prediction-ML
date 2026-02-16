@@ -14,7 +14,7 @@ As a risk management professional with 10+ years in fintech lending, I've seen h
 **Goal:** Build interpretable ML models that reduce false decline rates by 15% while maintaining portfolio risk within acceptable thresholds, enabling $2-3M in additional revenue from approved creditworthy applicants.
 
 ## Project Goals
-**Technical:** Build interpretable ML models achieving >0. AUS-ROC credit default prediction
+**Technical:** Build interpretable ML models achieving >0.85 AUS-ROC credit default prediction
 
 **Business:** Reduce falce decline rate by 15% while maintaining risk appetite, enabling $2-3M additional revenue from approved creditworthy applicants
 
