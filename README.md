@@ -1,9 +1,17 @@
 # Credit Risk Prediction Model
 
 ## Problem Statement
-Banks need better ways to predict credit defaults. This project builds machine learning models to predict credit default risk using historical customer data.
+Peer-to-peer lending platforms like Lending Club, Upstart, and Prosper revolutionized consumer credit by connecting borrowers directly with investors. However, accurate default prediction is critical for platform success:
 
-As a risk management professional with 10+ years in fintech lending, I've seen firsthand how traditional credit scoring misses creditworthy applications while exposing lenders to unexpected defaults. This project combines my domain expertise with machine learning to build more accurate, explainable credit risk models. 
+**Key Challenges:**
+1. **Credit Access:** Traditional FICO-only models reject creditworthy borrowers with thin credit files
+2. **Risk Pricing:** Interest rates must accurately reflect default probability to protect investor returns
+3. **Portfolio Performance:** High default rates erode investor confidence and platform viability
+
+**The Opportunity:**
+As a risk management professional with 10+ years in fintech lending, I've seen how traditional credit scoring models miss nuanced risk signals in alternative data. This project applies machine learning to predict loan defaults using rich behavioral and financial features beyond traditional credit scores.
+
+**Goal:** Build interpretable ML models that reduce false decline rates by 15% while maintaining portfolio risk within acceptable thresholds, enabling $2-3M in additional revenue from approved creditworthy applicants.
 
 ## Project Goals
 **Technical:** Build interpretable ML models achieving >0. AUS-ROC credit default prediction
@@ -21,11 +29,19 @@ As a risk management professional with 10+ years in fintech lending, I've seen f
 **Next Week:** Feature engineering and baseline model development
 
 ## Dataset
-- **Source:** UCI Machine Learning Repository (Default of Credit Card Clients)
-- **Records:** 30,000 credit card holders
-- **Features:** 24 variables (age, credit limit, payment history, etc.)
-- **Target:** Binary (Default: Yes/No)
-- **Business Context:** Predicting credit card default to optimize credit line decision and reduce portfolio risk for financial institutions.
+- **Source:** Lending Club Loan Data (2007-2018)
+- **Platform:** Kaggle / Lending Club public data
+- **Link:** https://www.kaggle.com/datasets/wordsforthewise/lending-club
+- **Records:** 2.9M+ personal loans from US peer-to-peer lending marketplace
+- **Features:** 150+ variables including:
+    - **Credit Metrics:** FICO score, credit history length, delinquencies, public records
+    - **Loan Characteristics:** Amount, term (36/60 months), interest rate, grade (A-G), purpose
+    - **Borrower Profile:** Annual income, employment length, home ownership, debt-to-income ratio
+    - **Behavioral Data:** Payment history, credit utilization, number of open accounts
+- **Target:** Loan status (Fully Paid, Charged Off, Default, Late, Current)
+- **Time Period:** 2007-2018 (includes pre/post financial crisis data)
+- **Geographic Coverage:** All 50 US states
+- **Business Context:** Predicting loan default probability for peer-to-peer lending platform to optimize credit decisions, price risk appropriately, and protect investor returns while expanding access to creditworthy borrowers.
 
 ## Approach
 
