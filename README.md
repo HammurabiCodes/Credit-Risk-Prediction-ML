@@ -16,9 +16,9 @@ As a risk management professional with 10+ years in fintech lending, I've seen h
 ## Project Goals
 **Technical:** Build interpretable ML models achieving >0.85 AUS-ROC credit default prediction
 
-**Business:** Reduce falce decline rate by 15% while maintaining risk appetite, enabling $2-3M additional revenue from approved creditworthy applicants
+**Business:** Reduce falce decline rate by 15% while maintaining risk appetite, enabling an estimated $2-3M in additional revenue from approved creditworthy applicants
 
-**Learning:** Master end-to-end ML workflow from EDA to prodcution deployment in fintech context
+**Learning:** Master end-to-end ML workflow from EDA to production deployment in fintech context
 
 ## Current Focus (Week of Feb 15, 2026)
 - Loading and exploring the dataset
@@ -26,7 +26,7 @@ As a risk management professional with 10+ years in fintech lending, I've seen h
 - Identifying missing values and data quality issues
 - Creating Initial visualizations of default patterns
 
-**Next Week:** Feature engineering and baseline model development
+**Next Week:** Feature engineering and baseline model development.
 
 ## Dataset
 - **Source:** Lending Club Loan Data (2007-2018)
@@ -40,7 +40,7 @@ As a risk management professional with 10+ years in fintech lending, I've seen h
     - **Behavioral Data:** Payment history, credit utilization, number of open accounts
 - **Target:** Loan status (Fully Paid, Charged Off, Default, Late, Current)
 - **Time Period:** 2007-2018 (includes pre/post financial crisis data)
-- **Geographic Coverage:** All 50 US states
+- **Geographic Coverage:** Across all 50 US states
 - **Business Context:** Predicting loan default probability for peer-to-peer lending platform to optimize credit decisions, price risk appropriately, and protect investor returns while expanding access to creditworthy borrowers.
 
 ## Approach
@@ -152,5 +152,3 @@ Week 1 (Feb 15 2026):
 **Last Updated:** February 2026
 **Status:** In Progress (Completing May 2026)
 ```
-
----
