@@ -3,11 +3,22 @@
 ## Problem Statement
 Banks need better ways to predict credit defaults. This project builds machine learning models to predict credit default risk using historical customer data.
 
+As a risk management professional with 10+ years in fintech lending, I've seen firsthand how traditional credit scoring misses creditworthy application while exposing lenders to unexpected defaults. This project combines my domain expertise with machine learning to build more accurate, explainable credit risk models. 
+
+## Current Focus (Week of Feb 15, 2026)
+- Loading and exploaring the dataset
+- Understanding feature distributions and target class blanace
+- Identifying missing values and data quality issues
+- Creating Initial visualizations of default patterns
+
+**Next Week:** Feature engineering and baseline model developement
+
 ## Dataset
 - **Source:** UCI Machine Learning Repository (Default of Credit Card Clients)
 - **Records:** 30,000 credit card holders
 - **Features:** 24 variables (age, credit limit, payment history, etc.)
 - **Target:** Binary (Default: Yes/No)
+- **Business Context:** Prediction credit card default to optimize credit line decision and reduce portfolio risk for financial institutions.
 
 ## Approach
 
@@ -16,11 +27,16 @@ Banks need better ways to predict credit defaults. This project builds machine l
 - Feature distributions
 - Correlation analysis
 - Missing value handling
+- Identify credit behavior patterns based on risk management domain expertise 
+- Analyze payment-to-limit ratios and utilization trends (key defaul indicators)
 
 ### 2. Feature Engineering
 - Creating interaction features
 - Feature scaling
 - Dimensionality reduction
+- Creating debt-service coverage proxies
+- Engineer behavioral trend features (payment consistency, credit seeking behavior)
+
 
 ### 3. Model Selection & Training
 - Logistic Regression (baseline)
@@ -85,7 +101,12 @@ jupyter notebook
 ```
 
 ## Key Findings (To be updated with results)
-- Coming soon as model is developed
+Week 1 (Feb 15 2026):
+- ✅ Project initialized, dataset loaded
+- ✅ Identified 30,000 records with 24 features
+- 🔄 Next: Exploratory analysis and missing value assessment 
+
+[Will update weekly discoveries]
 
 ## Learning Outcomes
 - Master machine learning workflow from data to deployment
@@ -94,10 +115,11 @@ jupyter notebook
 - Learn best practices in model evaluation
 
 ## Future Improvements
-- Add deep learning models
-- Implement feature selection techniques
-- Create API for model predictions
-- Deploy to production
+- Implementing SHAP values for model explainability (regulatory requirement in lending)
+- Adding ensemble stacking (combining XGBoost + Logistic Regression)
+- Building interactive streamlit dashboard for credit officers 
+- Integrate with real-time scoring API (production deployment)
+- A/B testing framework for champion/challenger model comparision 
 
 ## Contact
 - **LinkedIn:** [linkedin.com/in/olivia-tamimi](https://www.linkedin.com/in/olivia-tamimi)
