@@ -3,22 +3,27 @@
 ## Problem Statement
 Banks need better ways to predict credit defaults. This project builds machine learning models to predict credit default risk using historical customer data.
 
-As a risk management professional with 10+ years in fintech lending, I've seen firsthand how traditional credit scoring misses creditworthy application while exposing lenders to unexpected defaults. This project combines my domain expertise with machine learning to build more accurate, explainable credit risk models. 
+As a risk management professional with 10+ years in fintech lending, I've seen firsthand how traditional credit scoring misses creditworthy applications while exposing lenders to unexpected defaults. This project combines my domain expertise with machine learning to build more accurate, explainable credit risk models. 
+
+## Project Goals
+**Technical:** Build interpretable ML models achieving >0. AUS-ROC credit default prediction
+**Business:** Reduce falce decline rate by 15% while maintaining risk appetite, enabling $2-3M additional revenue from approved creditworthy applicants
+**Learning:** Master end-to-end ML workflow from EDA to prodcution deployment in fintech context
 
 ## Current Focus (Week of Feb 15, 2026)
-- Loading and exploaring the dataset
-- Understanding feature distributions and target class blanace
+- Loading and exploring the dataset
+- Understanding feature distributions and target class balance
 - Identifying missing values and data quality issues
 - Creating Initial visualizations of default patterns
 
-**Next Week:** Feature engineering and baseline model developement
+**Next Week:** Feature engineering and baseline model development
 
 ## Dataset
 - **Source:** UCI Machine Learning Repository (Default of Credit Card Clients)
 - **Records:** 30,000 credit card holders
 - **Features:** 24 variables (age, credit limit, payment history, etc.)
 - **Target:** Binary (Default: Yes/No)
-- **Business Context:** Prediction credit card default to optimize credit line decision and reduce portfolio risk for financial institutions.
+- **Business Context:** Predicting credit card default to optimize credit line decision and reduce portfolio risk for financial institutions.
 
 ## Approach
 
@@ -28,7 +33,7 @@ As a risk management professional with 10+ years in fintech lending, I've seen f
 - Correlation analysis
 - Missing value handling
 - Identify credit behavior patterns based on risk management domain expertise 
-- Analyze payment-to-limit ratios and utilization trends (key defaul indicators)
+- Analyze payment-to-limit ratios and utilization trends (key default indicators)
 
 ### 2. Feature Engineering
 - Creating interaction features
@@ -119,7 +124,7 @@ Week 1 (Feb 15 2026):
 - Adding ensemble stacking (combining XGBoost + Logistic Regression)
 - Building interactive streamlit dashboard for credit officers 
 - Integrate with real-time scoring API (production deployment)
-- A/B testing framework for champion/challenger model comparision 
+- A/B testing framework for champion/challenger model comparison 
 
 ## Contact
 - **LinkedIn:** [linkedin.com/in/olivia-tamimi](https://www.linkedin.com/in/olivia-tamimi)
