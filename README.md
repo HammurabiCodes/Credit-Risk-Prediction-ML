@@ -7,7 +7,9 @@ As a risk management professional with 10+ years in fintech lending, I've seen f
 
 ## Project Goals
 **Technical:** Build interpretable ML models achieving >0. AUS-ROC credit default prediction
+
 **Business:** Reduce falce decline rate by 15% while maintaining risk appetite, enabling $2-3M additional revenue from approved creditworthy applicants
+
 **Learning:** Master end-to-end ML workflow from EDA to prodcution deployment in fintech context
 
 ## Current Focus (Week of Feb 15, 2026)
