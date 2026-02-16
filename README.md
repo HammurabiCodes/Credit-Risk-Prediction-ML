@@ -26,7 +26,7 @@ As a risk management professional with 10+ years in fintech lending, I've seen h
 - Identifying missing values and data quality issues
 - Creating Initial visualizations of default patterns
 
-**Next Week:** Feature engineering and baseline model development.
+**Next week:** Feature engineering and baseline model development.
 
 ## Dataset
 - **Source:** Lending Club Loan Data (2007-2018)
@@ -124,10 +124,11 @@ jupyter notebook
 ```
 
 ## Key Findings (To be updated with results)
-Week 1 (Feb 15 2026):
-- ✅ Project initialized, dataset loaded
-- ✅ Identified 30,000 records with 24 features
-- 🔄 Next: Exploratory analysis and missing value assessment 
+Week 1 (Feb 15, 2026):
+✅ Project initialized, dataset downloaded from Kaggle
+✅ Dataset: 2.9M+ Lending Club loans (2007-2018) with 150+ features
+✅ Initial review: Loan amounts $500-$40K, terms 36/60 months, grades A-G
+🔄 Next: Exploratory analysis - default rates, FICO distributions, missing values
 
 [Will update weekly discoveries]
 
@@ -145,7 +146,7 @@ Week 1 (Feb 15 2026):
 - A/B testing framework for champion/challenger model comparison 
 
 ## Contact
-- **LinkedIn:** [linkedin.com/in/olivia-tamimi](https://www.linkedin.com/in/olivia-tamimi)
+- **LinkedIn:** [linkedin.com/in/olivia-tamimi](https://linkedin.com/in/olivia-tamimi)
 - **GitHub:** [github.com/HammurabiCodes](https://github.com/HammurabiCodes)
 
 ---
