@@ -125,17 +125,17 @@ jupyter notebook
 
 ## 📈 Key Findings (Updated Weekly)
 
-### Week 1 (Feb 15-2026, 2026) ✅ COMPLETED
+### Week 1 (Feb 15-23, 2026) ✅ COMPLETED
 
 ✅ **Project Setup:**
 - Initialized GitHub repository with professional documentation
-- Dataset downloaded from Kaggle: 2.260,701 Lending Club loans (2007-2018)
+- Dataset downloaded from Kaggle: 2,260,701 Lending Club loans (2007-2018)
 - Verified 151 features including FICO scores, DTI ratios, payment history, loan characteristics
 
 ✅ **Dataset Overview:**
 - **Total Loans:** 2,260,701
 - **Time Period:** 2007-2018
-- **Overall Default RAte:**15.68%
+- **Overall Default Rate:** 15.68%
 - **Features:** 151 columns
 - **Loan Amount Range:** $500 - $40,000 (Average: $15,047, Median: $12,900)
 - **Average FICO Score:** 703
@@ -146,13 +146,13 @@ jupyter notebook
 **Analysis Completed:**
 
 **1. FICO Score Impact**
-- **660:** 30.88% default rate (HIGH RISK)
+- **FICO <660:** 30.88% default rate (HIGH RISK)
 - **FICO 660-700:** 15.96% default rate
 - **FICO 700-740:** 9.91% default rate
 - **FICO 740-780:** 6.12% default rate
 - **FICO >780:** 4.14% default rate (LOW RISK)
 
-**Key Insight:** FICO scores below 660 show **7.5x higher default risk** compared to scores above 780. FICO will be the most imporatant feature in our model.
+**Key Insight:** FICO scores below 660 show **7.5x higher default risk** compared to scores above 780. FICO will be the most important feature in our model.
 
 ---
 
@@ -278,7 +278,7 @@ jupyter notebook
 
 ---
 
-**Next Steps - Week 3 (March 2, 2026):**
+**Next Steps - Week 2 (March 2, 2026):**
 - Handle missing values systematically
 - Feature engineering: Create derived features and interactions
 - Encode categorical variables (one-hot encoding, target encoding)
