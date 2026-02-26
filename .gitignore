@@ -19,4 +19,4 @@ data/*.xlsx
 .idea/
 
 # OS
-.DS_Store
+.DS_Storedata/cleaned_accepted_loans.csv
