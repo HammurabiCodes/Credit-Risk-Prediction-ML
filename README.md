@@ -317,7 +317,7 @@ A fintech startup built a loan default model with 98% accuracy. When they tried 
 - 📧 **Email:** olivia.tamimi1@gmail.com
 - 🎓 **Education:** MS Business Analytics (Fintech Track) @ Rutgers University
 
-**Background:** 10+ years fintech lending at Biz2Credit | Combining domain expertise with technical ML skills
+**Background:** 10+ years fintech lending  | Combining domain expertise with technical ML skills
 
 ---
 
