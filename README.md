@@ -20,6 +20,12 @@ As a risk management professional with 10+ years in fintech lending, I've seen h
 
 **Learning:** Master end-to-end ML workflow from EDA to production deployment in fintech context
 
+## 📊 Project Workflow
+   
+   ![ML Pipeline Workflow](ml_pipeline_workflow.svg)
+   
+   *End-to-end ML pipeline from 2.26M loans to $2-5M business impact*
+
 ## Current Focus (Week of Feb 15, 2026)
 - Loading and exploring the dataset
 - Understanding feature distributions and target class balance
